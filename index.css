@@ -1,19 +1,17 @@
 .container {
-    width: 100%;
+    max-width: 1000px;
     background: #f9f7f7;
-    display: grid;
-    grid-template-columns: 20% auto;
-    grid-auto-rows: auto;
-    border-radius: 10px;
+    display: block;
+    margin-left: 200px;
 }
 
 header {
     background-color: #112d4e;
-    grid-area: 1/1/2/3;
 }
 
 .example-image {
     max-width: 600px;
+    width: 100%;
     display: block;
     margin: 0 auto;
     padding: 20px 0;
@@ -27,12 +25,18 @@ header {
 nav {
     color: #3f72af;
     background-color: #dbe2ef;
-    grid-area: span 2;
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    min-width: 200px;
+    top: 0px;
+    left: 0px;
 }
 
 .navlink {
     display: flex;
     flex-direction: column;
+    padding: 30px 5px;
 }
 
 .main-doc {
@@ -56,16 +60,14 @@ p, li {
 }
 
 footer {
-    grid-area: 13/1/14/3;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.footer {
     background-color: #112d4e;
     height: fit-content;
+    padding-top: 20px 100px;
+}
+
+.footer p {
+    padding: 20px;
+    text-align: center;
 }
 
 #resource {
