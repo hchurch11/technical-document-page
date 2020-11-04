@@ -12,6 +12,13 @@ header {
     grid-area: 1/1/2/3;
 }
 
+.example-image {
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
 #page-title {
     color: #dbe2ef;
     padding: 20px 40px;
