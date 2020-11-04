@@ -31,7 +31,6 @@ nav {
     min-width: 200px;
     top: 0px;
     left: 0px;
-    z-index: -1;
 }
 
 .nav-link {
