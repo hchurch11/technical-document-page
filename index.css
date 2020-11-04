@@ -36,7 +36,8 @@ nav {
 .navlink {
     display: flex;
     flex-direction: column;
-    padding: 30px 5px;
+    padding: 20px 5px;
+    background-color: #dbe2ef;
 }
 
 .main-doc {
