@@ -34,7 +34,7 @@ nav {
     z-index: -1;
 }
 
-.navlink {
+.nav-link {
     display: flex;
     flex-direction: column;
     padding: 20px 5px;
