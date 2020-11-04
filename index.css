@@ -5,7 +5,7 @@
     margin-left: 200px;
 }
 
-header {
+header #page-title {
     background-color: #112d4e;
 }
 
@@ -31,6 +31,7 @@ nav {
     min-width: 200px;
     top: 0px;
     left: 0px;
+    z-index: -1;
 }
 
 .navlink {
@@ -60,7 +61,7 @@ p, li {
     color: #757575;
 }
 
-#code {
+.code {
     border: 2px solid #3f72af;
     max-width: 600px;
     margin: 20px auto;
